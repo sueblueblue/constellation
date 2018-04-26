@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAB323BC20878C860058111F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB323BB20878C860058111F /* Assets.xcassets */; };
 		CAD37C5B20875D6000926FD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD37C5A20875D6000926FD4 /* AppDelegate.swift */; };
 		CAD37C5D20875D6000926FD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD37C5C20875D6000926FD4 /* ViewController.swift */; };
 		CAD37C6020875D6000926FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD37C5E20875D6000926FD4 /* Main.storyboard */; };
-		CAD37C6220875D6200926FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD37C6120875D6200926FD4 /* Assets.xcassets */; };
 		CAD37C6520875D6200926FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD37C6320875D6200926FD4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CAB323BB20878C860058111F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD37C5720875D6000926FD4 /* onepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onepage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD37C5A20875D6000926FD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD37C5C20875D6000926FD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CAD37C5F20875D6000926FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CAD37C6120875D6200926FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD37C6420875D6200926FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAD37C6620875D6200926FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +57,7 @@
 				CAD37C5A20875D6000926FD4 /* AppDelegate.swift */,
 				CAD37C5C20875D6000926FD4 /* ViewController.swift */,
 				CAD37C5E20875D6000926FD4 /* Main.storyboard */,
-				CAD37C6120875D6200926FD4 /* Assets.xcassets */,
+				CAB323BB20878C860058111F /* Assets.xcassets */,
 				CAD37C6320875D6200926FD4 /* LaunchScreen.storyboard */,
 				CAD37C6620875D6200926FD4 /* Info.plist */,
 			);
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAD37C6520875D6200926FD4 /* LaunchScreen.storyboard in Resources */,
-				CAD37C6220875D6200926FD4 /* Assets.xcassets in Resources */,
+				CAB323BC20878C860058111F /* Assets.xcassets in Resources */,
 				CAD37C6020875D6000926FD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

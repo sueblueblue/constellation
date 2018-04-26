@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XsQ-Zl-uZD">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,290 +10,850 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--週末星座運勢-->
+        <scene sceneID="96z-mb-vTv">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="onepage" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="6xL-tO-yOL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OZf-k1-Mcm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="彼得潘" translatesAutoresizingMaskIntoConstraints="NO" id="XDW-YQ-Z1I">
-                                <rect key="frame" x="0.0" y="98" width="375" height="210"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" pagingEnabled="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YGz-bh-ZLm">
+                                <rect key="frame" x="29" y="203" width="316" height="406"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <string key="text">晴天星座★★★★★
+▎巨蟹
+週末可以做自己想做的事，好好陪伴身邊的人，讓大家都很盡興。感情方面喜歡做有計畫性的事情，只要另一半不妨礙，你就會非常感謝對方。幸運色是藍色。
+▎獅子
+週末有很多意外的驚喜，例如：與好朋友相聚或工作上傳來好消息。感情方面單身者會遇到喜歡的對象，建議要多到戶外走走、參加聚會。幸運色是紅色。
+▎天蠍
+週末別人會給你一些評價，建議要仔細聆聽，相信會帶給你不少啟發。感情方面彼此會各忙各的；單身者可以在聚會中認識不錯的對象。幸運色是白色。
+​
+晴時多雲星座★★★★☆
+▎處女
+週末要放輕鬆迎接意外的狀況，相信會帶給你一個奇妙的旅程。感情方面看不慣另一半花錢的態度，建議彼此要好好溝通，趁機了解對方的想法。幸運色是橘色。
+▎天秤
+週末容易體力透支，建議凡事按部就班、慢慢來就好。感情方面若另一半的衛生習慣很好或很重視承諾，相信你會對他更有感覺。幸運色是藍色。
+▎射手
+週末有很多邀約，導致自己很忙碌，因此不要照單全收才好。感情部分容易被需要你的人吸引，建議要理性評估一下對方是否適合你。幸運色是綠色。
+​
+陰天星座★★★☆☆
+▎雙子
+週末會說錯話或在忙亂中出狀況，盡量不要參與突如其來的活動。感情方面會哪壺不開提哪壺，建議要小心說者無心、聽者有意的狀況。幸運色是橘色。
+▎魔羯
+週末要陪伴女性長輩，雖然她們需要你的照顧，但你也可以從她們身上得到安慰。感情方面要用感性的方式對待另一半，對方才會接受你的要求。幸運色是白色。
+​
+雨天星座★★☆☆☆
+▎金牛
+週末會指揮別人做事，雖然他們順從你，但私下是不服氣的，另外請避免和男性長輩對槓。感情方面彼此的行動需求不同，建議不要互相勉強。幸運色是黑色。
+▎水瓶
+週末總是有人來拜託你做事，導致有做不完的事情。感情部分面對他人釋出的好感必有所回應，使得自己感到很勞累。幸運色是粉紅色。
+​
+打雷閃電星座★☆☆☆☆
+▎白羊
+週末會捲入糾紛當中，建議對於不清楚的事情就不要插手。感情方面有不當放電的傾向，甚至有三角關係的人，容易有曝光的情況。幸運色是黑色。
+▎雙魚
+週末會遇到挑釁你的人，建議自己要控制好情緒才行。感情方面說話請不要太過尖銳，否則雙方容易有爭吵的狀況。幸運色是綠色。</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="占卜2" translatesAutoresizingMaskIntoConstraints="NO" id="uWd-iv-ne3">
+                                <rect key="frame" x="10" y="67" width="349" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ms8-Gd-aTe">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LINE TODAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySB-7G-6vA">
-                                        <rect key="frame" x="135" y="28" width="100" height="24"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="17"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hbK-gi-pLZ">
-                                        <rect key="frame" x="18" y="36" width="26" height="2"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1So-zo-Wyp">
-                                        <rect key="frame" x="18" y="42" width="26" height="2"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bYl-BC-ZjS">
-                                        <rect key="frame" x="18" y="30" width="26" height="2"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="0.14901960784313725" green="0.18823529411764706" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="今日頭條" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUf-D1-dQ1">
-                                <rect key="frame" x="26" y="69" width="62" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" ● ● ● ● ● ● ● ● ●" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbe-1Q-Bcq">
-                                <rect key="frame" x="132" y="279" width="98" height="11"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                <color key="textColor" red="0.67843137254901964" green="0.69019607843137254" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" ●" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Bb-kK-7Gp">
-                                <rect key="frame" x="120" y="279" width="11" height="11"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="疑似彼得潘出沒台灣上空 越過台灣海峽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFD-rE-xlM">
-                                <rect key="frame" x="20" y="248" width="334" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="娛樂" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6x-NN-yK8">
-                                <rect key="frame" x="110" y="69" width="31" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.76470588235294112" green="0.76470588235294112" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="國內" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PK-eR-45E">
-                                <rect key="frame" x="164" y="69" width="31" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.80392156859999997" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="生活" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtv-rb-guf">
-                                <rect key="frame" x="223" y="69" width="31" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.80392156859999997" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="國際" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ieb-P3-Fu0">
-                                <rect key="frame" x="328" y="69" width="31" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.80392156859999997" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="電影" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ho1-F6-I3r">
-                                <rect key="frame" x="276" y="69" width="31" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.80392156859999997" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-2" translatesAutoresizingMaskIntoConstraints="NO" id="kkz-nI-nHv">
-                                <rect key="frame" x="20" y="326" width="111" height="85"/>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="JCZ-SE-ywc"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="週末星座運勢" id="ZY8-Fc-Abe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VlK-eR-fvX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2013.5999999999999" y="920.68965517241384"/>
+        </scene>
+        <!--射手座-->
+        <scene sceneID="Bvp-vM-hb7">
+            <objects>
+                <viewController id="La1-N0-M0F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ftW-4m-Tej">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="射手座" translatesAutoresizingMaskIntoConstraints="NO" id="7eB-mY-Hga">
+                                <rect key="frame" x="-1" y="72" width="375" height="344"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="海盜船" translatesAutoresizingMaskIntoConstraints="NO" id="GsY-Ag-zit">
-                                <rect key="frame" x="20" y="419" width="111" height="85"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sagittarius 11/22 - 12/20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFM-33-plO">
+                                <rect key="frame" x="112" y="385" width="247" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="23T-J3-Ryx">
+                                <rect key="frame" x="25" y="443" width="326" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">火象星座
+個性簡介：
+關鍵字：博學、樂觀、愛冒險
+特色：樂觀，崇尚自由，充滿理想／為人正直、坦率、誠懇／博學有智慧／直覺敏銳，態度冷靜，判斷力強
+缺點：心直口快，容易得罪人／缺乏耐性，做事衝動／過於理想化、不夠務實、不聽勸告／缺乏規劃／愛吹噓，說話誇大，反覆無常</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="L0q-CX-cjG"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="射手座" id="2mX-kv-dIR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3FQ-nF-Dlt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3348" y="895.50224887556226"/>
+        </scene>
+        <!--巨蟹座-->
+        <scene sceneID="xGS-NZ-er8">
+            <objects>
+                <viewController id="Ud4-OH-hNY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6js-en-YPF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="巨蟹座" translatesAutoresizingMaskIntoConstraints="NO" id="KlC-l7-rHQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="344"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="小精靈2" translatesAutoresizingMaskIntoConstraints="NO" id="M1p-ai-zTK">
-                                <rect key="frame" x="20" y="521" width="111" height="85"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cancer 6/22 - 7/22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7N-23-1Ea">
+                                <rect key="frame" x="165" y="378" width="194" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qte-6Y-yA3">
+                                <rect key="frame" x="27" y="436" width="324" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">水象星座
+個性簡介：
+關鍵字：敏感、情緒化、外剛內柔
+特色：念舊，重情義／和藹可親，體貼，善解人意／領悟力強，富有想像力／有堅強的意志力和耐性
+缺點：太過情緒化，多愁善感，缺乏理性思考／天性多疑，忌妒心強／因過度敏感，而容易導致個性善變、不穩定</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="dsk-vk-8sP"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="巨蟹座" id="EUz-ZB-Gtl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nnE-TU-HWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4396" y="895.50224887556226"/>
+        </scene>
+        <!--金牛座-->
+        <scene sceneID="D0c-Ib-tgR">
+            <objects>
+                <viewController id="gUa-Yw-K4D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3te-XZ-IZC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="金牛座" translatesAutoresizingMaskIntoConstraints="NO" id="fcO-cL-kCA">
+                                <rect key="frame" x="0.0" y="64" width="375" height="344"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ezu-LB-Iht">
-                                <rect key="frame" x="0.0" y="608" width="375" height="1"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="maI-cU-26u">
+                                <rect key="frame" x="28" y="433" width="323" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80392156859999997" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VvQ-Vz-FNM">
-                                <rect key="frame" x="-1" y="617" width="375" height="1"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">土象星座
+個性簡介：
+關鍵字：謹慎、溫和、務實
+特色：有耐性，能夠堅持到底／務實、懂規劃，凡事腳踏實地／為人順從，追求和平／有主見，堅守原則／待人純潔熱誠，可靠、值得信賴
+缺點：規矩太多，太過頑固，不知變通／嚴肅，缺乏幽默感／不擅長分工合作，不善協調／古板，欠缺求新求變的態度與勇氣</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Taurus 4/20 - 5/20 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="972-zH-yNe">
+                                <rect key="frame" x="161" y="376" width="190" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80392156859999997" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="03B-LK-IPq">
-                                <rect key="frame" x="0.0" y="617" width="375" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="xOI-Rm-m14">
-                                        <rect key="frame" x="23" y="7" width="262" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coj-3B-t2g">
-                                        <rect key="frame" x="337" y="8" width="30" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41Y-ZE-pJc">
-                                        <rect key="frame" x="346" y="8" width="30" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNy-RJ-5M5">
-                                        <rect key="frame" x="327" y="8" width="30" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTY-jL-fD7">
-                                <rect key="frame" x="139" y="326" width="220" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="出現勁敵傑克船長 虎克船長宣布全面開戰">
-                                        <attributes>
-                                            <font key="NSFont" size="16" name=".PingFangTC-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzu-o9-6k7">
-                                <rect key="frame" x="139" y="419" width="220" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="好萊屋即將開拍神鬼奇航">
-                                        <attributes>
-                                            <font key="NSFont" size="16" name="PingFangTC-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="5     ">
-                                        <attributes>
-                                            <font key="NSFont" size="16" name=".SFNSText"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="找來巨星虎克船長擔任男主角">
-                                        <attributes>
-                                            <font key="NSFont" size="16" name="PingFangTC-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Raq-xg-UOn">
-                                <rect key="frame" x="139" y="521" width="220" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="本月星座運勢 由小精靈為你解說">
-                                        <attributes>
-                                            <font key="NSFont" size="16" name="PingFangTC-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops>
-                                                    <textTab alignment="left" location="28">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="56">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="84">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="112">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="140">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="168">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="196">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="224">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="252">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="280">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="308">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="336">
-                                                        <options/>
-                                                    </textTab>
-                                                </tabStops>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="夢幻島新聞網" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xts-nr-LJp">
-                                <rect key="frame" x="139" y="372" width="80" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.67843137249999996" green="0.69019607839999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="好萊屋今日新聞" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eE-VM-7el">
-                                <rect key="frame" x="139" y="468" width="93" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.67843137249999996" green="0.69019607839999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zahoo星座運勢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nu1-54-box">
-                                <rect key="frame" x="139" y="571" width="92" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.67843137249999996" green="0.69019607839999997" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="lVr-qm-sSk"/>
                     </view>
+                    <navigationItem key="navigationItem" title="金牛座" id="A5D-SJ-3f0"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="26O-kH-UMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5397.6000000000004" y="895.50224887556226"/>
+        </scene>
+        <!--天秤座-->
+        <scene sceneID="6sP-FA-xnn">
+            <objects>
+                <viewController id="SBM-sw-WeW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xva-80-5t1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="天秤座" translatesAutoresizingMaskIntoConstraints="NO" id="0XH-iT-G5R">
+                                <rect key="frame" x="1" y="71" width="375" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Libra 9/23 - 10/23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKg-Lz-Re4">
+                                <rect key="frame" x="171" y="388" width="188" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PBj-dA-Ney">
+                                <rect key="frame" x="26" y="446" width="325" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">風象星座
+個性簡介：
+關鍵字：優柔寡斷、追求公平
+特色：溫和、凡事都保持中庸／公正客觀，有正義感／處事得宜，能屈能伸
+缺點：優柔寡斷，經常猶豫不決／容易受人影響，意志不夠堅定／怕得罪人，無法承受壓力／藉口太多，缺乏自省能力</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="53u-Fk-UjZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="天秤座" id="cxF-hn-F1k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cgw-aS-GBH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3348" y="1622.3388305847077"/>
+        </scene>
+        <!--聯絡我們-->
+        <scene sceneID="9qt-aO-gO2">
+            <objects>
+                <viewController id="J1W-1s-HwV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zBc-gv-qf3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="小精靈的星座教室" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpy-m0-zfM">
+                                <rect key="frame" x="115" y="68" width="279" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="占卜網站：https://yahoo.click108.com.tw" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cga-Z6-Weh">
+                                <rect key="frame" x="20" y="308" width="334" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36332538102227074" green="0.59799242997600865" blue="0.61968591370558368" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.50179114719999995" blue="0.31645832670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="算命地址：台北市西園路一段萬華區145號" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tfD-XX-DmM">
+                                <rect key="frame" x="20" y="366" width="334" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36332538102227074" green="0.59799242997600865" blue="0.61968591370558368" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="預約專線：(02)1345-5678" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wY9-2d-dbC">
+                                <rect key="frame" x="20" y="424" width="334" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36332538102227074" green="0.59799242997600865" blue="0.61968591370558368" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
+                            </textView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="fpC-rV-cj8">
+                                <rect key="frame" x="177" y="575" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="占卜3" translatesAutoresizingMaskIntoConstraints="NO" id="sfy-3L-vbL">
+                                <rect key="frame" x="0.0" y="72" width="107" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="小精靈-1" translatesAutoresizingMaskIntoConstraints="NO" id="H7T-fM-Ore">
+                                <rect key="frame" x="72" y="138" width="383" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="qXX-Em-xiO"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="聯絡我們" id="V0b-yb-Yvh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NMM-Ft-jXF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1980" y="-689.5052473763119"/>
+        </scene>
+        <!--十二星座-->
+        <scene sceneID="Hik-IY-cvP">
+            <objects>
+                <viewController id="045-33-TKx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KDU-fO-ab6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNm-sy-UQG">
+                                <rect key="frame" x="8" y="261" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="獅子"/>
+                                <connections>
+                                    <segue destination="CCA-C9-NJN" kind="show" id="MoP-6Z-zPY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwJ-Aa-VAl">
+                                <rect key="frame" x="200" y="437" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="摩羯"/>
+                                <connections>
+                                    <segue destination="WRy-2j-tFb" kind="show" id="NGi-4q-etL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpb-ti-hWo">
+                                <rect key="frame" x="10" y="437" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="牡羊"/>
+                                <connections>
+                                    <segue destination="gii-K4-sNF" kind="show" id="lH5-nr-d2a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4g-Yc-jlW">
+                                <rect key="frame" x="287" y="260" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="雙魚"/>
+                                <connections>
+                                    <segue destination="3Xg-Vc-vY1" kind="show" id="FX1-q4-wpR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hx-am-nyH">
+                                <rect key="frame" x="291" y="80" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="處女"/>
+                                <connections>
+                                    <segue destination="NIL-HO-07w" kind="show" id="hx5-50-pnL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGU-Ox-jNi">
+                                <rect key="frame" x="5" y="81" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="射手"/>
+                                <connections>
+                                    <segue destination="La1-N0-M0F" kind="show" id="lvj-al-Gbu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uon-mV-Def">
+                                <rect key="frame" x="110" y="437" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="巨蟹"/>
+                                <connections>
+                                    <segue destination="Ud4-OH-hNY" kind="show" id="6Oy-We-liK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQ9-tV-mS7">
+                                <rect key="frame" x="291" y="437" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="水瓶"/>
+                                <connections>
+                                    <segue destination="auq-yJ-lQO" kind="show" id="Ymy-a7-cln"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07o-uh-VlH">
+                                <rect key="frame" x="194" y="260" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="雙子"/>
+                                <connections>
+                                    <segue destination="7NM-gc-4Au" kind="show" id="yo3-hf-TZu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oh-pA-I7y">
+                                <rect key="frame" x="200" y="80" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="金牛"/>
+                                <connections>
+                                    <segue destination="gUa-Yw-K4D" kind="show" id="Rlr-OD-faT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3OQ-JR-U9c">
+                                <rect key="frame" x="110" y="81" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="天蠍"/>
+                                <connections>
+                                    <segue destination="eIw-EE-jSK" kind="show" id="B09-kt-BP1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lI0-3r-vGC">
+                                <rect key="frame" x="110" y="261" width="76" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="天秤"/>
+                                <connections>
+                                    <segue destination="SBM-sw-WeW" kind="show" id="gIn-t8-s5w"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="12星座" translatesAutoresizingMaskIntoConstraints="NO" id="ViJ-Cr-cGl">
+                                <rect key="frame" x="-30" y="43" width="438" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="I14-qF-RBT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="十二星座" id="fwy-S2-6FQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R9G-go-idS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2013.5999999999999" y="129.98500749625188"/>
+        </scene>
+        <!--牡羊座-->
+        <scene sceneID="R6j-uy-y7i">
+            <objects>
+                <viewController id="gii-K4-sNF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QUF-Qg-adu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="牡羊座" translatesAutoresizingMaskIntoConstraints="NO" id="Tds-aA-NUD">
+                                <rect key="frame" x="0.0" y="64" width="375" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Aries 3/21 - 4/19 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5i-Mk-62r">
+                                <rect key="frame" x="176" y="380" width="172" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3eU-MY-wGg">
+                                <rect key="frame" x="26" y="438" width="322" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">火象星座
+個性簡介：
+關鍵字：勇氣／鬥志／好勝
+特色：富正義感，有擔當／理想遠大／有冒險精神，勇於接受挑戰／做事積極，勇往直前／精力旺盛，熱情有活力／充滿自信
+缺點：做事欠缺周到，經常顧此失彼／自大，太過以自我為中心，自私自利／急躁、衝動，缺乏耐性，容易惱羞成怒</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="Eny-PS-ohX"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="牡羊座" id="K1B-m8-sOm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GMx-JS-qKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3392.8000000000002" y="123.68815592203899"/>
+        </scene>
+        <!--雙魚座-->
+        <scene sceneID="c0w-AI-nbD">
+            <objects>
+                <viewController id="3Xg-Vc-vY1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E4b-0l-qUl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="雙魚座" translatesAutoresizingMaskIntoConstraints="NO" id="XSn-03-4T0">
+                                <rect key="frame" x="0.0" y="64" width="375" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pisces 2/20 - 3/20 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFt-4r-NW3">
+                                <rect key="frame" x="153" y="386" width="195" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PZJ-Qo-kap">
+                                <rect key="frame" x="26" y="444" width="333" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">水象星座
+個性簡介：
+關鍵字：浪漫、富同情心、不切實際
+特色：感情豐富／包容心強，捨己為人，善解人意／天真、浪漫、不容易多疑／溫柔、仁慈、謙遜
+缺點：濫情軟弱、多愁善感、優柔寡斷／不願面對現實、太過理想／感情用事，欠缺理性／缺乏自信，意志薄弱</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="sWi-xV-DOg"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="雙魚座" id="iHP-gJ-NxC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="knG-cH-EcV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4396" y="148.87556221889056"/>
+        </scene>
+        <!--處女座-->
+        <scene sceneID="jvH-HA-u2m">
+            <objects>
+                <viewController id="NIL-HO-07w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fON-jh-3GB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="處女座" translatesAutoresizingMaskIntoConstraints="NO" id="mps-Jk-FFS">
+                                <rect key="frame" x="0.0" y="64" width="375" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Virgo 8/23 - 9/22 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nrs-m7-fDI">
+                                <rect key="frame" x="176" y="383" width="172" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zXj-S5-O1a">
+                                <rect key="frame" x="26" y="441" width="322" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">土象星座
+個性簡介：
+關鍵字：細心、嘮叨、完美主義
+特色：為人仔細、做事認真謹慎、追求完美／是非善惡分明／勤奮努力／嚴守本分／為人謙遜
+缺點：太講求完美，而容易對人過於苛刻、嘮叨、吹毛求疵、小題大作／容易有潔癖／太過務實，缺乏遠見</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="p66-As-Dpu"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="處女座" id="8P7-Zz-Oh0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5wf-Lo-9i8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5317.6000000000004" y="155.17241379310346"/>
+        </scene>
+        <!--雙子座-->
+        <scene sceneID="zep-2a-Iod">
+            <objects>
+                <viewController id="7NM-gc-4Au" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DF9-AE-05G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="雙子座" translatesAutoresizingMaskIntoConstraints="NO" id="tco-W0-9nz">
+                                <rect key="frame" x="0.0" y="64" width="375" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gemini 5/21 - 6/21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGg-ac-De6">
+                                <rect key="frame" x="170" y="377" width="189" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Dpm-ge-fC3">
+                                <rect key="frame" x="27" y="435" width="324" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">風象星座
+個性簡介：
+關鍵字：機智、善變、好奇心旺盛
+特色：多才多藝／足智多謀、反應靈敏／活潑健談，擅長溝通交際，懂分寸，八面玲瓏
+缺點：善變，較無定性／太過神經質，容易緊張／做事太重表面而不夠深入／缺乏耐性，意志不夠堅定</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="fE8-n0-DJU"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="雙子座" id="qmp-SZ-aaZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aC8-jt-4Kl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4396" y="1621.4392803598203"/>
+        </scene>
+        <!--獅子座-->
+        <scene sceneID="9HG-To-O3f">
+            <objects>
+                <viewController id="CCA-C9-NJN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aft-9M-oTg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="獅子座" translatesAutoresizingMaskIntoConstraints="NO" id="4Uv-nP-1GK">
+                                <rect key="frame" x="0.0" y="64" width="375" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leo 7/23 - 8/22 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiJ-NN-vvF">
+                                <rect key="frame" x="187" y="376" width="172" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sH7-NL-oCv">
+                                <rect key="frame" x="28" y="434" width="323" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940672588832" green="0.1580940672588832" blue="0.1580940672588832" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">火象星座
+個性簡介：
+關鍵字：慷慨、霸氣、自尊心強
+特色：勇敢，領導、組織能力強／個性開朗熱情／心胸寬大／言而有信／誠信正直
+缺點：比較容易急躁、浮動、缺乏耐性／好大喜功、驕奢自大、自以為是／喜歡指揮別人</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="xzd-3n-ufM"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="獅子座" id="1z4-ws-w0g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ObC-1L-ydL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3348" y="-690.40479760119945"/>
+        </scene>
+        <!--天蠍座-->
+        <scene sceneID="2Gc-QE-on2">
+            <objects>
+                <viewController id="eIw-EE-jSK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NXD-cn-cKf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="天蠍座" translatesAutoresizingMaskIntoConstraints="NO" id="bys-yL-1jU">
+                                <rect key="frame" x="0.0" y="64" width="375" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scorpio 10/24 - 11/21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaD-Df-um5">
+                                <rect key="frame" x="143" y="375" width="216" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sNr-fA-vnk">
+                                <rect key="frame" x="16" y="433" width="335" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">水象星座
+個性簡介：
+關鍵字：神秘、愛恨分明、佔有慾強
+特色：執行力強，不畏挫折，能吃苦耐勞，做事有持續性／個性沈著，深謀遠慮／情緒敏感，感情細膩／主觀意見強，意志堅定／悟性高，直覺敏銳
+缺點：佔有慾強，疑心病重，善妒忌／得理不饒人／城府深，報復心強／感情用事，容易衝動</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="JF8-vz-PxT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="天蠍座" id="hFU-f4-egj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u0w-EW-oAw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4316" y="-691.304347826087"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="0vd-Xa-m5d">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="XsQ-Zl-uZD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="W57-6I-eJE">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="qEW-OT-f2w" kind="relationship" relationship="viewControllers" id="M4A-je-l5l"/>
+                        <segue destination="Ohi-iF-rvh" kind="relationship" relationship="viewControllers" id="2gW-6b-CG7"/>
+                        <segue destination="QjE-CK-KBD" kind="relationship" relationship="viewControllers" id="I2O-w2-rlY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wFi-H6-NUS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="129.98500749625188"/>
         </scene>
+        <!--摩羯座-->
+        <scene sceneID="hRG-S4-VgK">
+            <objects>
+                <viewController id="WRy-2j-tFb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ItG-nn-whE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="摩羯座" translatesAutoresizingMaskIntoConstraints="NO" id="PJ3-T6-Wcq">
+                                <rect key="frame" x="0.0" y="64" width="375" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Capricorn 12/21 - 1/20 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTD-o2-kLh">
+                                <rect key="frame" x="131" y="383" width="228" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GdK-ij-w43">
+                                <rect key="frame" x="27" y="441" width="324" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">土象星座
+個性簡介：
+關鍵字：意志堅強、專注力強、勇敢
+特色：個性保守、謹慎而馴良／具有強烈的忍耐力／務實，做事腳踏實地／意志堅定，不容易受影響／堅守原則，重視紀律／有主見，有抱負
+缺點：重視實際利益、太過唯利是圖／太過務實，不夠樂觀／過於專注自我，缺乏對於人際上的關懷與熱情／墨守成規，不會隨機應變／外表嚴肅，不易親近</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="jge-HB-w6S"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="摩羯座" id="q4Z-Du-QhQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fbs-i5-frl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5220" y="-699.40029985007504"/>
+        </scene>
+        <!--水瓶座-->
+        <scene sceneID="epP-yo-p1y">
+            <objects>
+                <viewController id="auq-yJ-lQO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="275-UE-njr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="水瓶座" translatesAutoresizingMaskIntoConstraints="NO" id="QaM-eO-hA8">
+                                <rect key="frame" x="0.0" y="64" width="375" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aquarius 1/21 - 2/19 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kao-1A-uDw">
+                                <rect key="frame" x="154" y="388" width="205" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Tya-eD-1oo">
+                                <rect key="frame" x="26" y="446" width="325" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580940673" green="0.1580940673" blue="0.1580940673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">風象星座
+個性簡介：
+關鍵字：睿智、獨立、叛逆
+特色：崇尚自由，興趣廣泛，創意十足／富人道精神，樂於助人／頭腦敏銳，善於觀察／個性溫和、時常面帶笑容、與人相處融洽
+缺點：反抗性強、倔將、偏激／標新立異／愛追根究底／特異獨行難以捉摸／自我色彩濃厚／太過理想／缺乏恆心</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="pUr-Kz-2Ze"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="水瓶座" id="7Eg-Ky-OtM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l5j-Fq-SgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5317.6000000000004" y="1621.4392803598203"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uqw-jL-AWH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qEW-OT-f2w" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="mostRecent" id="q2N-xt-7JP"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ngP-FE-dX7">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6xL-tO-yOL" kind="relationship" relationship="rootViewController" id="Lt6-ZP-vK1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YuQ-tY-3qz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="921"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QHm-VC-DXV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ohi-iF-rvh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="tDG-9Y-BIO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0NJ-fJ-t2r">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="045-33-TKx" kind="relationship" relationship="rootViewController" id="HPF-9Z-wbU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ggq-wx-yeN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="130"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vqS-CB-OIA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QjE-CK-KBD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="EhQ-fH-m9L"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZVt-Vj-qVY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="J1W-1s-HwV" kind="relationship" relationship="rootViewController" id="QJ3-NT-chB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwl-V5-YVk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040.8" y="-689.5052473763119"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="icon" width="198" height="25"/>
-        <image name="images-2" width="299" height="169"/>
-        <image name="小精靈2" width="302" height="289"/>
-        <image name="彼得潘" width="640" height="300"/>
-        <image name="海盜船" width="338" height="318"/>
+        <image name="12星座" width="560" height="433"/>
+        <image name="占卜2" width="850" height="478"/>
+        <image name="占卜3" width="450" height="300"/>
+        <image name="天秤座" width="500" height="500"/>
+        <image name="天蠍座" width="500" height="500"/>
+        <image name="射手座" width="500" height="500"/>
+        <image name="小精靈-1" width="797" height="531"/>
+        <image name="巨蟹座" width="500" height="500"/>
+        <image name="摩羯座" width="500" height="500"/>
+        <image name="水瓶座" width="500" height="500"/>
+        <image name="牡羊座" width="500" height="500"/>
+        <image name="獅子座" width="500" height="500"/>
+        <image name="處女座" width="500" height="500"/>
+        <image name="金牛座" width="500" height="500"/>
+        <image name="雙子座" width="500" height="500"/>
+        <image name="雙魚座" width="500" height="500"/>
     </resources>
 </document>
